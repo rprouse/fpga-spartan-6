@@ -1,0 +1,7 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "RESET" LOC = L16;
+NET "OUT_LOW" LOC = J16;
+NET "OUT_HIGH" LOC = K16;
+NET "CLOCK_IN" LOC = T8;

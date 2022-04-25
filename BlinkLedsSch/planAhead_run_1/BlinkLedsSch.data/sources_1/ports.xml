@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="CLOCK_IN" Dir="IN"/>
+		<Port Id="RESET" Dir="IN"/>
+		<Port Id="OUT_HIGH" Dir="OUT"/>
+		<Port Id="OUT_LOW" Dir="OUT"/>
+	</Ifc>
+</Interface>
+
