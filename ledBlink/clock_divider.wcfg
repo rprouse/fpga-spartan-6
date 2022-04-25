@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/rob/src/fpga/ledBlink/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/testbench/divided_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">divided_clk</obj_property>
+      <obj_property name="ObjectShortName">divided_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/counter_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/div_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">div_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

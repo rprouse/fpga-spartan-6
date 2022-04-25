@@ -1,0 +1,3 @@
+
+NET "clk" LOC = T8;
+NET "led" LOC = P4;
