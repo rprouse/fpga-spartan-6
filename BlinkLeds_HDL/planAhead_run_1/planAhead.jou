@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Apr 25 20:19:49 2022
+# Process ID: 5853
+# Log file: /home/rob/src/fpga/BlinkLeds_HDL/planAhead_run_1/planAhead.log
+# Journal file: /home/rob/src/fpga/BlinkLeds_HDL/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/rob/src/fpga/BlinkLeds_HDL/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T8 [get_ports CLOCK_IN]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports OUT_HIGH]
+endgroup
+startgroup
+set_property package_pin J16 [get_ports OUT_LOW]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports RESET]
+endgroup
+save_constraints

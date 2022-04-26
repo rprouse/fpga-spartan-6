@@ -1,0 +1,187 @@
+Release 14.7 - reportgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Apr 25 20:00:59 2022
+
+File: /tmp/xil_5yid5M.dly
+
+ The 20 worst nets by delay are:
++-----------------+-----------+
+| Max Delay       | Netname   |
++-----------------+-----------+
+   3.089            RESET_IBUF
+   2.217            blinkcount<24>
+   2.166            blinkcount<23>
+   1.171            CLOCK_IN_BUFGP
+   0.678            CLOCK_IN_BUFGP/IBUFG
+   0.390            blinkcount<20>
+   0.390            blinkcount<16>
+   0.390            blinkcount<12>
+   0.390            blinkcount<8>
+   0.390            blinkcount<0>
+   0.390            blinkcount<4>
+   0.363            blinkcount<19>
+   0.363            blinkcount<3>
+   0.363            blinkcount<15>
+   0.363            blinkcount<11>
+   0.363            blinkcount<7>
+   0.187            blinkcount<1>
+   0.187            blinkcount<9>
+   0.187            blinkcount<13>
+   0.187            blinkcount<5>
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+CLOCK_IN_BUFGP
+   CLOCK_IN_BUFGP/BUFG.O
+         1.159  blinkcount<3>.CLK
+         1.161  blinkcount<7>.CLK
+         1.164  blinkcount<11>.CLK
+         1.166  blinkcount<15>.CLK
+         1.168  blinkcount<19>.CLK
+         1.170  blinkcount<23>.CLK
+         1.171  blinkcount<24>.CLK
+
+CLOCK_IN_BUFGP/IBUFG
+   CLOCK_IN.I
+         0.678  CLOCK_IN_BUFGP/BUFG.I0
+
+Mcount_blinkcount_cy<11>
+   blinkcount<11>.COUT
+         0.003  blinkcount<15>.CIN
+
+Mcount_blinkcount_cy<15>
+   blinkcount<15>.COUT
+         0.003  blinkcount<19>.CIN
+
+Mcount_blinkcount_cy<19>
+   blinkcount<19>.COUT
+         0.003  blinkcount<23>.CIN
+
+Mcount_blinkcount_cy<23>
+   blinkcount<23>.COUT
+         0.003  blinkcount<24>.CIN
+
+Mcount_blinkcount_cy<3>
+   blinkcount<3>.COUT
+         0.003  blinkcount<7>.CIN
+
+Mcount_blinkcount_cy<7>
+   blinkcount<7>.COUT
+         0.003  blinkcount<11>.CIN
+
+RESET_IBUF
+   RESET.I
+         2.100  blinkcount<3>.SR
+         2.266  blinkcount<7>.SR
+         2.431  blinkcount<11>.SR
+         2.597  blinkcount<15>.SR
+         2.763  blinkcount<19>.SR
+         2.928  blinkcount<23>.SR
+         3.089  blinkcount<24>.SR
+
+blinkcount<0>
+   blinkcount<3>.AQ
+         0.390  blinkcount<3>.A4
+
+blinkcount<10>
+   blinkcount<11>.CQ
+         0.186  blinkcount<11>.C4
+
+blinkcount<11>
+   blinkcount<11>.DQ
+         0.363  blinkcount<11>.D4
+
+blinkcount<12>
+   blinkcount<15>.AQ
+         0.390  blinkcount<15>.A4
+
+blinkcount<13>
+   blinkcount<15>.BQ
+         0.187  blinkcount<15>.B4
+
+blinkcount<14>
+   blinkcount<15>.CQ
+         0.186  blinkcount<15>.C4
+
+blinkcount<15>
+   blinkcount<15>.DQ
+         0.363  blinkcount<15>.D4
+
+blinkcount<16>
+   blinkcount<19>.AQ
+         0.390  blinkcount<19>.A4
+
+blinkcount<17>
+   blinkcount<19>.BQ
+         0.187  blinkcount<19>.B4
+
+blinkcount<18>
+   blinkcount<19>.CQ
+         0.186  blinkcount<19>.C4
+
+blinkcount<19>
+   blinkcount<19>.DQ
+         0.363  blinkcount<19>.D4
+
+blinkcount<1>
+   blinkcount<3>.BQ
+         0.187  blinkcount<3>.B4
+
+blinkcount<20>
+   blinkcount<23>.AQ
+         0.390  blinkcount<23>.A4
+
+blinkcount<21>
+   blinkcount<23>.BQ
+         0.187  blinkcount<23>.B4
+
+blinkcount<22>
+   blinkcount<23>.CQ
+         0.186  blinkcount<23>.C4
+
+blinkcount<23>
+   blinkcount<23>.DQ
+         0.371  blinkcount<23>.D4
+         2.166  OUT_LOW.O
+
+blinkcount<24>
+   blinkcount<24>.AQ
+         0.127  blinkcount<24>.A4
+         2.217  OUT_HIGH.O
+
+blinkcount<2>
+   blinkcount<3>.CQ
+         0.186  blinkcount<3>.C4
+
+blinkcount<3>
+   blinkcount<3>.DQ
+         0.363  blinkcount<3>.D4
+
+blinkcount<4>
+   blinkcount<7>.AQ
+         0.390  blinkcount<7>.A4
+
+blinkcount<5>
+   blinkcount<7>.BQ
+         0.187  blinkcount<7>.B4
+
+blinkcount<6>
+   blinkcount<7>.CQ
+         0.186  blinkcount<7>.C4
+
+blinkcount<7>
+   blinkcount<7>.DQ
+         0.363  blinkcount<7>.D4
+
+blinkcount<8>
+   blinkcount<11>.AQ
+         0.390  blinkcount<11>.A4
+
+blinkcount<9>
+   blinkcount<11>.BQ
+         0.187  blinkcount<11>.B4
+

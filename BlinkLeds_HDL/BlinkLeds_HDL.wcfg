@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/rob/src/fpga/BlinkLeds_HDL/BlinkLeds_HDL_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="BlinkLeds_HDL" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/BlinkLeds_HDL/CLOCK_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLOCK_IN</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/OUT_HIGH" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_HIGH</obj_property>
+      <obj_property name="ObjectShortName">OUT_HIGH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/OUT_LOW" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">OUT_LOW</obj_property>
+      <obj_property name="ObjectShortName">OUT_LOW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/clk_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/reset_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_in</obj_property>
+      <obj_property name="ObjectShortName">reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BlinkLeds_HDL/blinkcount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blinkcount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">blinkcount[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
